@@ -1,0 +1,122 @@
+body{
+    background-color: #808080;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #0000FF;
+    margin: 10px;
+}
+.image2{
+    width: 50px;
+    height: 50px;
+}
+.heading{
+    display: flex;
+    background-color: #800080;
+    justify-content: space-between;
+    align-items: center;
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.social-media{
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media img{
+    margin: 10px;
+    position: relative;
+}
+.about_me_list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #800080;
+    font-size: 15px;
+}
+.about_me_list li{
+    margin: 10px 5px 0px 5px;
+}
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #4060E0;
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+}
+.link{
+    display: block;
+    text-decoration: none;
+    font-size: 10xp;
+}
+.link2{
+    color: #F01090;
+    font-size: 17px;
+    padding: 10px;
+    margin-right: 30px;
+}
+a:link{
+    color: #F01090;
+}
+a:visited{
+    color:#F0F000;
+}
+.name{
+    color: #F0F000;
+    padding: 10px;
+    padding-left: 30px;
+}
+.my_image{
+    width: 200px;
+    height: 240px;
+}
+.subheading{
+    color: #0000F0;
+    text-align: center;
+}
+.para{
+    color: #F0F000;
+}
+#Air_Hockey p{
+    opacity: 0;
+    text-align: center;
+}
+#Air_Hockey:hover p{
+    opacity: 1;
+}
+#Avengers p{
+    opacity: 0;
+    text-align: center;
+}
+#Avengers:hover p{
+    opacity: 1;
+}
+#Bus_Reservation p{
+    opacity: 0;
+    text-align: center;
+}
+#Bus_Reservation:hover p{
+    opacity: 1;
+}
+#Farm_Layout p{
+    opacity: 0;
+    text-align: center;
+}
+#Farm_Layout:hover p{
+    opacity: 1;
+}
+#Virtual_Pet p{
+    opacity: 0;
+    text-align: center;
+}
+#Virtual_Pet:hover p{
+    opacity: 1;
+}
+#Online_Friend_Bot p{
+    opacity: 0;
+    text-align: center;
+}
+#Online_Friend_Bot:hover p{
+    opacity: 1;
+}
